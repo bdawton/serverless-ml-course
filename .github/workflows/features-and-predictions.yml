@@ -25,7 +25,8 @@ jobs:
         run: jupyter kernelspec list
 
       - name: Install scikit-learn
-        run: python -m pip install scikit-learn==1.2.1
+        run: python -m pip install scikit-learn==1.5.1
+                # I needed to upgrade this to get sh script to run ipynb correctly (originally 1.2.1)
 
 
           
